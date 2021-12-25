@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Your Journey</string>
+    <string-array name="countries_array">
+        <item>Select Country</item>
+        <item>UAE</item>
+        <item>Saudi Arabia</item>
+        <item>Pakistan</item>
+        <item>USA</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>
+
+
+

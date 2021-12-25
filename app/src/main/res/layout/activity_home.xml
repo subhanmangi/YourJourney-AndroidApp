@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            >
+
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            android:textSize="25dp"
+            >
+
+
+        </TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:weightSum="30"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Hotels"
+                android:onClick="hotelsClicked"
+                ></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="40dp"
+                android:text="Restaurants"
+                android:onClick="restaurantsClicked"
+                ></Button>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Discovered"
+                android:onClick="discoveredClicked"
+                ></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="40dp"
+                android:text="Contact Us"
+                android:onClick="placesStoryClicked"
+                ></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Tourism Area"
+                android:onClick="tourismClicked"
+                ></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="40dp"
+                android:text="Utilities"
+                android:onClick="utilityClicked"
+                ></Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Converter"
+            android:onClick="convertedClicked"
+            ></Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="40dp"
+            android:text="Profile"
+            android:onClick="profileClicked"
+            ></Button>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="bottom"
+
+            android:text="Copyright2021"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

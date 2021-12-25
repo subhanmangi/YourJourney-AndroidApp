@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648910628716",
+    "project_id": "yourjourneyapp-6e623",
+    "storage_bucket": "yourjourneyapp-6e623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648910628716:android:6257fc4ec83a56a947b549",
+        "android_client_info": {
+          "package_name": "com.example.yourjourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648910628716-7pdr2qulc8dheak824ol369pbek0efdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATRQoKuYku5BBhdiCEoOLGiUKyzMyjmoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648910628716-7pdr2qulc8dheak824ol369pbek0efdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
